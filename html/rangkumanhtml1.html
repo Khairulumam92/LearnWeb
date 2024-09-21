@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan</title>
+</head>
+<body>
+    <h1>Moon Light</h1>
+    <!-- br digunakan untuk membuat spasi antar pragraf sedangkan hr digunakan untuk membuat garis -->
+    <br>
+    <br>
+    <hr>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi accusantium fuga quam quasi cumque asperiores ducimus minus iusto explicabo voluptas, reiciendis temporibus. Ut recusandae perspiciatis asperiores provident eveniet! Quis, sed.
+    </p>
+    <table border="1">
+        <tr>
+            <th rowspan="2" bgcolor="yellow">Bulan</th>
+            <th colspan="2" bgcolor="#00ff80">Hasil Panen</th>
+        </tr>
+        <tr>
+            <th>Padi</th>
+            <th>Kacang</th>
+        </tr>
+        <tr>
+            <td>Januari</td>
+            <td>500 Kg</td>
+            <td>231 Kg</td>
+        </tr>
+        <tr>
+            <td>Februari</td>
+            <td>342 Kg</td>
+            <td>423 Kg</td>
+        </tr>
+        <tr>
+            <td>Maret</td>
+            <td>432 Kg</td>
+            <td>124 Kg</td>
+        </tr>
+        <tr>
+            <td>April</td>
+            <td>453 Kg</td>
+            <td>523 Kg</td>
+        </tr>
+    </table>
+    <img src="bg5.jpg.jpg"
+    width="500px" height="250px" />
+    <br>
+    <br>
+    <!-- rowspan digunakan untuk menggabungkan kolom kebawah sedangkan colspan kesamping dan celpadding digunakan untuk
+    membuat jarak pada table -->
+    <table border="1" cellpadding="2">
+        <tr>
+        <th>nama</th>
+        <th colspan="3">kode</th>
+        </tr>
+        <tr>
+            <td rowspan="2" bgcolor="skyblue">tabel1</td>
+            <td>tabel2</td>
+            <td rowspan="2" bgcolor="red">tabel3</td>
+            <td>tabel4</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td colspan="4" bgcolor="yellow">9</td>
+        </tr>
+    </table>
+    <!-- ol adalah ordered list atau list berurutan,jika tidak diberi 'type' maka defaultnya akan berbentuk angka
+    'type' yang dapat digunakan adalah 'a,A,i,I' -->
+    <ol>
+        <li>jeruk</li>
+        <li>pisang</li>
+        <li>semangka</li>
+    </ol>
+    <ol type="A">
+        <li>pepaya</li>
+        <li>rambutan</li>
+        <li>mangga</li>
+    </ol>
+
+    <!-- Unordered List atau list tidak beraturan defaultnya adalah disc kecil, 'type' yang dapat digunakan diantaranya
+    'square,circle,disc(default),none'  -->
+    <ul>
+        <li>sepeda</li>
+        <li>mobil</li>
+        <li>pesawat</li>
+    </ul>
+    <ul type="circle">
+        <li>gajah</li>
+        <li>harimau</li>
+        <li>singa</li>
+    </ul>
+    <!-- Selain menggunakan type, kita juga bisa menggunakan gambar dengan menambahkan tag 'style'. -->
+    <ul style="list-style-image: url(https://assets.ubuntu.com/sites/ubuntu/latest/u/img/favicon.ico)">
+        <li>Javascript</li>
+        <li>PHP</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>Kotlin</li>
+    </ul>
+    <!-- List juga dapat dibuat di dalam list(nested list), misalkan kita ingin menggabungkan ordered list dengan unordered list.
+        Caranya, list yang di dalam ditulis di dalam tag <li>. -->
+    <ol>
+        <li>Debian
+            <ul>
+                <li>Ubuntu</li>
+                <li>Mint</li>
+                <li>elementaryOS</li>
+            </ul>
+        </li>
+        <li>RedHat
+            <ul>
+                <li>Fedora</li>
+            </ul>
+        </li>
+        <li>Slackware</li>
+    </ol>
+    <!-- <dl>tag untuk memulai description list.<dt>tag untuk membuat kata yang akan dideskripsikan.<dd>tag untuk membuat penjelasan dari kata. -->
+    <dl>
+        <dt>kopi</dt>
+        <dd>berwarna hitam</dd>
+        <dt>susu</dt>
+        <dd>berwarna putih</dd>
+    </dl>
+
+</body>
+</html>

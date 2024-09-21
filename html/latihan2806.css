@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+}
+
+.satu, .dua, .tiga {
+    margin: auto;
+}
+
+.satu {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+.dua {
+    background-color: rgba(20, 60, 80, .7);
+    width: 100px;
+    height: 100px;
+}
+
+.tiga {
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+}

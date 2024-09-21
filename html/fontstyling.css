@@ -1,0 +1,26 @@
+body {
+    background-color: aqua;
+    background-image: url(gradient1.jpg);
+}
+
+h1 {
+    color: crimson;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.p1 {
+    color: tomato;
+    line-height: 25px;
+    line-break: normal;
+}
+
+.p2 {
+    color: yellowgreen;
+    text-align: justify;
+}
+
+ol li {
+    color: springgreen;
+}

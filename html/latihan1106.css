@@ -1,0 +1,36 @@
+body {
+    background-image: url(/image/gradient1.jpg);
+    background-size: auto;
+}
+.head {
+    margin-top: -23px;
+    margin-left: 7px;
+    font-style: italic;
+}
+article h2 {
+    font-size: 15px;
+    text-align: center;
+}
+main {
+    text-align: center;
+    color: green;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+
+article h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer .profil {
+    text-align: center;
+    background-color: silver;
+    height: 30px;
+    bottom: -20px;
+}
+
+.more {
+    text-align: center;
+    display: inherit;
+}

@@ -1,0 +1,62 @@
+body {
+    background-image: url(/image/gradient1.jpg);
+}
+
+.container {
+    background-color: white;
+    width: 900px;
+    margin: auto;
+}
+
+header h1 {
+    padding-top: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: -60px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: salmon;
+}
+
+header ul li a:hover {
+    color: aqua;
+}
+
+.hero {
+    background-image: url(/image/bg3.jpg);
+    height: 320px;
+    background-size: cover;
+    background-position: -1px -90px;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid lightblue;
+}
+
+.main .content {
+    margin: 20px;
+}
+
+.content p {
+    margin-right: 30px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+.footer {
+    background-color: aqua;
+    height: 40px;
+}
+
+.copy p {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}

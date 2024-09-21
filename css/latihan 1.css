@@ -1,0 +1,18 @@
+body {
+    background-color: skyblue;
+    height: 1400px;
+}
+
+.pragraph {
+    font-style: italic;
+    color: blueviolet;
+    font-size: 18px;
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+article {
+    background-color: brown;
+}
